@@ -541,7 +541,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 860 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 430 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -586,7 +586,7 @@
 #define DEFAULT_XJERK                 10.0
 #define DEFAULT_YJERK                 10.0
 #define DEFAULT_ZJERK                  0.4
-#define DEFAULT_EJERK                  5.0
+#define DEFAULT_EJERK                 15.0
 
 //===========================================================================
 //============================= Z Probe Options =============================
